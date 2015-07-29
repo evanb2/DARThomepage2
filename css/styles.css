@@ -14,13 +14,14 @@
 
 body {
     background-color: #DBDBDB;
+    padding-top: 50px;
 }
 
 #logo {
     max-width: 300px;
 }
 
-.navbar-static-top .navbar-nav>li>a {
+.navbar-fixed-top .navbar-nav>li>a {
     color: #7899be;
     padding-top: 30px;
     font-size: 18px;
@@ -38,7 +39,7 @@ body {
 }
 
 #row-2 {
-    padding-top: 30px;
+    padding-top: 300px;
     padding-left: 18%;
     padding-right: 18%;
 }
