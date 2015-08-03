@@ -2,9 +2,10 @@
     .navbar-brand-centered {
         position: absolute;
         left: 45%;
-        display: block;
-        width: 160px;
-        text-align: center;
+        display: inline-block;
+        margin-right: 5%;
+        /*width: 500px;*/
+        /*text-align: center;*/
     }
     .navbar>.container .navbar-brand-centered,
     .navbar>.container-fluid .navbar-brand-centered {
@@ -42,24 +43,23 @@ body {
     padding-right: 10px;
 }*/
 
-#row-2 {
-    padding-top: 300px;
+/*#row-2 {
+    padding-top: 100px;
+    padding-bottom: 10%;
     padding-left: 18%;
     padding-right: 18%;
-}
+}*/
 
 #col-1 {
     margin-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    /*width: auto;*/
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #col-2 {
     margin-top: 30px;
-    padding-right: 10%;
-    padding-left: 10%;
-    /*width: auto;*/
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 #col-3 {
@@ -73,4 +73,22 @@ body {
 
 h2  {
     font-size: 25px;
+}
+
+.navbar-collapse.collapse.in, .navbar-collapse.collapsing {
+    background-color: black;
+
+}
+
+.navbar-toggle {
+    margin-top: 22px;
+}
+
+#logos-1 {
+    text-align: center;
+}
+
+#logos-1 div {
+  display: inline-block;
+  padding: 40px;
 }
